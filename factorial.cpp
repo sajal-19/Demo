@@ -8,6 +8,13 @@ long fact(int n){
     long f = n*fact(n-1);
     return f;
 }
+long facti(int n){
+    if(n==1){
+        return 1;
+    }
+    long f = n*fact(n-1);
+    return f;
+}
 int main(){
     int n;
     cin>>n;
